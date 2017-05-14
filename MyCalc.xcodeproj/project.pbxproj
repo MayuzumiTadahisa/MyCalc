@@ -12,6 +12,8 @@
 		7315DAC21EC7BB0B00A87425 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7315DAC01EC7BB0B00A87425 /* Main.storyboard */; };
 		7315DAC41EC7BB0B00A87425 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7315DAC31EC7BB0B00A87425 /* Assets.xcassets */; };
 		7315DAC71EC7BB0B00A87425 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7315DAC51EC7BB0B00A87425 /* LaunchScreen.storyboard */; };
+		73BD46591EC85F1500C7DE40 /* PercentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73BD46581EC85F1500C7DE40 /* PercentViewController.swift */; };
+		73BD465B1EC867FA00C7DE40 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73BD465A1EC867FA00C7DE40 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		7315DAC31EC7BB0B00A87425 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7315DAC61EC7BB0B00A87425 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7315DAC81EC7BB0B00A87425 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73BD46581EC85F1500C7DE40 /* PercentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PercentViewController.swift; sourceTree = "<group>"; };
+		73BD465A1EC867FA00C7DE40 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +61,11 @@
 				7315DABC1EC7BB0B00A87425 /* AppDelegate.swift */,
 				7315DABE1EC7BB0B00A87425 /* ViewController.swift */,
 				7315DAC01EC7BB0B00A87425 /* Main.storyboard */,
+				73BD465A1EC867FA00C7DE40 /* ResultViewController.swift */,
 				7315DAC31EC7BB0B00A87425 /* Assets.xcassets */,
 				7315DAC51EC7BB0B00A87425 /* LaunchScreen.storyboard */,
 				7315DAC81EC7BB0B00A87425 /* Info.plist */,
+				73BD46581EC85F1500C7DE40 /* PercentViewController.swift */,
 			);
 			path = MyCalc;
 			sourceTree = "<group>";
@@ -139,6 +145,8 @@
 			files = (
 				7315DABF1EC7BB0B00A87425 /* ViewController.swift in Sources */,
 				7315DABD1EC7BB0B00A87425 /* AppDelegate.swift in Sources */,
+				73BD46591EC85F1500C7DE40 /* PercentViewController.swift in Sources */,
+				73BD465B1EC867FA00C7DE40 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +312,7 @@
 				7315DACD1EC7BB0B00A87425 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
